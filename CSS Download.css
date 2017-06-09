@@ -1,0 +1,321 @@
+main{width: auto;
+        	 margin: 0 auto;}
+
+        header {width: 100%;
+        		height: 100px;
+        		position: fixed;
+				opacity: 0.9;
+				filter: alpha(opacity=90);
+		}
+
+        ul {margin:0;}
+
+        body {margin: 0;
+              padding: 0;}
+
+        article {margin: 0;
+        		 padding: 0;}
+
+        header > h3 {margin: 0;
+        		     	 padding: 0;}
+
+		header  ul {background-color: #222222; 
+			         text-align: center;
+			         font-family: 'Merriweather Sans', sans-serif;
+			         color: white;
+			         width: 100%;
+			         line-height: 5.5em;
+			         word-spacing: 2em;
+			         font-size: 1em;
+			         margin: 0;
+			         padding: 0;
+			         }
+
+		header > ul > li {
+			display: inline-block;
+			position: relative;
+		}
+
+
+		header > ul  > #link1  {font-size :0.7em !important ; }		
+
+	     a:link 
+             { text-decoration:none;
+               color: #FFFFFF;}
+
+         a:visited {color:#FFFFFF;}
+
+         a:hover{ color: #FF00FF;}
+
+         
+
+         .logo1 {height: 90px;
+         	     width: 140px;
+         	    float: left;
+         	      		}
+        .logo1{		background-image:url("F:/Senac - Técnico em Informática/UC16 - BookShelf/Logos/B-B&P-unico.png");
+		            background-size: 100%;
+		           background-repeat: no-repeat;}     	
+        
+        .logo1:hover{background-image:url("F:/Senac - Técnico em Informática/UC16 - BookShelf/Logos/B-colorido-unico.png");
+		                background-size: 90%;
+		                background-repeat: no-repeat;
+		                transition: all 0.2s linear;
+		            	} 
+
+
+        
+
+         header > h3 {float: left;
+         			  font-family: 'Merriweather Sans', sans-serif;
+			          color: white;
+			          line-height: 5.5em;
+			          word-spacing: 2em;
+			          font-size: 1.0em;
+			           }
+	     #slides {width: 100%;
+				 height: 750px;
+				 background-image: url("F:/Senac - Técnico em Informática/UC16 - BookShelf/Photoshop Site/download.png");
+				 background-size: 100%;
+				 background-position: top;
+				 background-repeat: no-repeat;
+				 padding: 0;
+				 margin: 0;}    
+
+		#divesq {width:50%;
+				 height: 750px;
+				 float: left;
+				 padding: 0;
+				 margin-left:-140px;
+				 float: right;
+         	     font-family: 'Merriweather Sans', sans-serif;
+			     color: white;
+			     font-size: 1.3em;
+			     text-align: left;
+			     line-height: 1.5em; }
+
+	    #divesq > h3 {color: #7c25f8;
+	    			  font-size: 1.5!important;
+	    			  margin-top: 20px;
+	    			}
+
+	    #divesq > h3 {padding-left: 10%;
+	    				 padding-right: 10%;
+	    				 font-weight: bold; 
+	    				 margin-top: 200px;
+	    				}
+
+	    #divesq > p {color: black !important;
+	    	padding-left: 10%;
+	    	padding-right: 10%;
+	    	font-weight: bold;
+	    	margin-top: 50px;
+	    }
+
+	    #divdir {width: 50%;
+	    		 height: 750px;
+	    		 float:left;
+	    		 padding: 0;
+	    		 margin: 0;
+	    		 margin-left: 30px;
+	    		}  
+
+	    #divdir > img {
+	    	width: 700px;
+	    	height: 600px;
+	    	margin-right: 50px;
+	    	margin-top: 60px;
+	    }
+ 
+   	.divtexto {width: 100%;
+			   height: 400px;
+			   margin: 0;
+			   float: left;
+
+			   }
+ 		   		   
+  	.divtexto > p {text-align: justify;
+		               font-family: 'Merriweather Sans', sans-serif;
+		               color: black;
+			           font-size: 1.0em;
+			           text-align: left;
+			           line-height: 2em;
+					   font-weight: bold;
+					   padding-left: 10%;
+	    				 padding-right: 10%;
+					} 
+
+	#p1 {text-align: justify;
+		 font-family: 'Merriweather Sans', sans-serif;
+		 color: #85efdc;
+	     font-size: 1.3em;
+		 text-align: left;
+	     line-height: 2em;
+	     margin-top: 3%}
+			           			           
+	input {width: 200px;
+   					 height: 35px;
+   					 background-color: #8A2BE2;
+   				     border-style: none;
+   					 color: white;
+   					 font-size: 1em;
+   					 font-weight: bold;
+   					 cursor: pointer;
+   					 border-radius: 5px;
+   					 margin-top: 100px;
+   					}
+
+    div > a > img {width: 10%;
+    			   height: 12%;
+    			   margin-left: 150px;}
+
+    div > a > #img2 {width: 12%;
+    			     height: 12%;
+    			     margin-left: 20px;
+    			     margin-top: 30px;}
+   								
+
+/* FOOTER */
+  			      
+ 	
+footer > ul {
+			font-family:  'Merriweather Sans', sans-serif;
+			display: block;
+			background-color: black;
+			clear: both;
+			color: #fff;
+			list-style-type: none;
+			font-size: 0.8em;
+			padding-top: 20px;
+		}
+
+		footer {
+
+			width: 100%;
+			height: 80px;
+			display: block;
+			background-color: black;
+			clear: both;
+		}
+		footer > li {
+			font-family:  'Merriweather Sans', sans-serif;
+			display: block;
+			background-color: black;
+			clear: both;
+			color: #fff;
+			text-decoration: none;
+			font-size: 0.8em;
+			padding: 30px;
+		}
+		footer > small {
+			display: block;
+			background-color: black;
+			clear: both;
+			color: #fff;
+			text-align: center;
+			padding: 10px;
+		}
+
+		footer > .seg > li {
+			display: inline-block;
+			font-size: 0.7em;
+			margin-top: 60px;
+			clear: both;
+			word-spacing: 20px;
+		}
+
+		footer > .container {
+			display: none;
+			clear: both;
+		}
+
+		footer > .social li {
+			display: inline-block;
+			position: relative;
+			list-style-type: none;
+			float: right;
+		}
+
+		#topo {
+			width: 100%;
+			height: 500px;
+		}
+
+		#fim {width: 100%;
+			  height: 500px;}			           			      
+ 			
+footer > section {
+	width: 150px;
+	height: 10px;
+	float: right;
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+	position: relative;
+	padding-right: 80% !important;
+	margin-top: 0px;
+}
+
+.rede {
+	width: 25px;
+	height: 25px;
+	float: right;
+	padding-right: 80px;
+	transition: all 0.4s;
+}
+
+.rede #facebook {
+	background-color: white;
+}
+
+.rede #twitter {
+	background-color: white;
+}
+
+.rede #instagram {
+	background-color: white;
+}
+
+#facebook img {
+	width: 50px;
+	height: 50px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#twitter img {
+	width: 50px;
+	height: 50px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#instagram img {
+	width: 45px;
+	height: 45px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#facebook:hover {
+		cursor: pointer;
+	transform: translateY(-10px);
+	transform: rotate(5deg);
+}
+
+#twitter:hover{
+		cursor: pointer;
+	transform: translateY(-10px);
+	transform: rotate(5deg);
+}
+
+#instagram:hover {
+		cursor: pointer;
+	transform: translateY(-10px);
+	transform: rotate(5deg);
+}
+}
+
+  
+
+ 	   
