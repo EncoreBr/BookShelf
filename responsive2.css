@@ -114,7 +114,7 @@ header > h3 {
       padding: 0px;
     }
 
-    #pl2 {width: 100% auto;
+    #pl2 {width: 350px;
     	  height: 100px;
     	  font-family: 'Merriweather Sans', sans-serif;
     	   }
@@ -209,8 +209,8 @@ header > h3 {
 #planos > #pl2 > hr {color: grey;}
 
    #planos > #pl2 > #box1 > input {
-                     width: 55px;
-   								   height: 15px;
+                     width: 50px;
+   								   height: 10px;
    								   background-color: #2E8B57;
    								   border-style: none;
    								   color: white;
@@ -222,12 +222,12 @@ header > h3 {
                      padding: 0px;
                      float: right;
                      margin-right: 20px;
-                   }
+                                        }
 
 
    #planos > #pl2 > #box2 > input {
-                     width: 55px;
-   								   height: 15px;
+                     width: 50px;
+   								   height: 10px;
    								   background-color: #2E8B57;
    								   border-style: none;
    								   color: white;
@@ -240,8 +240,8 @@ header > h3 {
                      margin-right: 20px;
    								   }
 
-   #planos > #pl2 > #box3 > input {width: 55px;
-   								   height: 15px;
+   #planos > #pl2 > #box3 > input {width: 50px;
+   								   height: 10px;
    								   background-color: #2E8B57;
    								   border-style: none;
    								   color: white;
@@ -266,8 +266,8 @@ header > h3 {
       margin: 0;
       font-family: 'Merriweather Sans', sans-serif;
       width: 160px;
-      height: 200px;
-      margin-top: 20px;
+      height: 350px;
+      margin-top: 0px;
     }
 
 
@@ -277,7 +277,7 @@ header > h3 {
         padding: 0;
         margin:0;}
 
-#celular > img {width: 140px;
+#celular > img {width: 170px;
         height: 40%;
           margin-left: 0px;
         margin-top: 90px;}
@@ -291,8 +291,18 @@ header > h3 {
          }
 
 #ptex {color: #7c25f8 !important;
-    width: 200px;
+    width: 100px;
     height: 30px;
+    text-align: justify-all;
+    margin: 0px;
+    padding: 0px;
+    font-size: 0.5em;
+    margin-bottom: 6px !important;
+}
+
+#ptex1 {color: #7c25f8 !important;
+    width: 100px;
+    height: 15px;
     text-align: justify-all;
     margin: 0px;
     padding: 0px;
@@ -310,7 +320,8 @@ header > h3 {
 #pobs {font-size: 0.3em !important;
      color:black !important;
      font-weight: none !important;
-     font-family:  'Merriweather Sans', sans-serif;  }
+     font-family:  'Merriweather Sans', sans-serif; 
+     padding-top: 90px; }
 
 
 /* FOOTER */
@@ -323,7 +334,9 @@ footer > ul {
       color: #fff;
       list-style-type: none;
       font-size: 0.8em;
-      padding-top: 10px;
+      padding: 0px !important;
+      padding-top: 10px !important;
+      
     }
 
     footer {

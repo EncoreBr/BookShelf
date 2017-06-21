@@ -45,6 +45,11 @@
 
          a:hover{ color: #FF00FF;}
 
+
+         header > ul > li {
+			display: inline-block;
+			position: relative;
+		}
          
 
          .logo1 {height: 90px;
